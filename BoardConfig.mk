@@ -56,8 +56,8 @@ USE_CLANG_PLATFORM_BUILD := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_USE_COMPAT_GRALLOC_ALIGN := true
 
-# CMHW
-BOARD_HARDWARE_CLASS := device/huawei/mt2/cmhw
+# MKHW
+BOARD_HARDWARE_CLASS := device/huawei/mt2/mkhw
 
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
@@ -90,7 +90,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
-TARGET_KERNEL_CONFIG := cyanogenmod_mt2_defconfig
+TARGET_KERNEL_CONFIG := mokee_mt2_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 TARGET_KERNEL_SOURCE := kernel/huawei/msm8928
 

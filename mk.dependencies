@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_huawei_mt2",
+    "target_path": "vendor/huawei/mt2"
+  },
+  {
     "repository": "android_kernel_huawei_msm8928",
     "target_path": "kernel/huawei/msm8928"
   },
